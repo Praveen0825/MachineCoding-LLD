@@ -82,5 +82,9 @@ public class Elevator implements Runnable{
 
         state = ElevatorState.STOPPED;
     }
+
+    public int currentFloor() {
+        return currentFloor;
+    }
 }
 
