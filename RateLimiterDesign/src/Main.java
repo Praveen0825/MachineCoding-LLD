@@ -18,7 +18,7 @@ public class Main {
             }
 
             try {
-                Thread.sleep(200); // simulate time delay
+                Thread.sleep(100); // simulate time delay
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
